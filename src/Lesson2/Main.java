@@ -16,6 +16,7 @@ public class Main {
         int min=arr3[0];
         printArr3min(arr3,min);
         boolean c = printCheckBalance(arr3);
+        System.out.println();
     }
 
     public static void printArr(int arr []){
