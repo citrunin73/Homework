@@ -6,7 +6,7 @@ public class Employee {
     private String email;
     private String phone;
     private int payment;
-    private int age;
+    public int age;
 
     public Employee(String name, String position, String email, String phone, int payment, int age) {
         this.name = name;
@@ -19,9 +19,4 @@ public class Employee {
     public void info() {
         System.out.println("ФИО: " + name + "; Должность: " + position + "; Email: " + email + "; Номер телефона: " + phone + "; Зарплата: " + payment + "; Возраст: " + age);
     }
-    public void age(){
-        if (age>40){
-            System.out.println("ФИО: " + name + "; Должность: " + position + "; Email: " + email + "; Номер телефона: " + phone + "; Зарплата: " + payment + "; Возраст: " + age);
-        }
     }
-}

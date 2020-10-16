@@ -11,9 +11,11 @@ public class Main {
             employeesArray[2] = new Employee("Иванов Петр Иванович", "Программист", "ivanov@mail.ru", "79995555555", 50000, 29);
             employeesArray[3] = new Employee("Иванов Геннадий Иванович", "Стажер", "ivanov@mail.ru", "79995555555", 15000, 18);
             employeesArray[4] = new Employee("Чванов Михаил Иванович", "Бухгалтер", "ivanov@mail.ru", "79995555555", 30000, 50);
-        for (Employee employee : employeesArray) {
-            employee.age();
+        for (int i = 0; i < employeesArray.length ; i++) {
+            if (employeesArray[i].age>40){
+               employeesArray[i].info();
+            }
+
         }
     }
-
-    }
+}
