@@ -56,6 +56,7 @@ public class MainApp {
 
     }
     //endregion
+
     //region Задача_8
     public static String leapYear(int year) {
         if (year % 4 == 0 && (year % 400 == 0 || year % 100 !=0)) {
