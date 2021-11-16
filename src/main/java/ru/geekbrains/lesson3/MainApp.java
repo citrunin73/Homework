@@ -33,6 +33,7 @@ public class MainApp {
 
         }
     }
+
     public static void Ask() {
         do {
             System.out.println("Повторить игру еще раз?\n 1 – да / 0 – нет");
