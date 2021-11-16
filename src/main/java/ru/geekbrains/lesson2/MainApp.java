@@ -86,7 +86,6 @@ public class MainApp {
                 sumRight = sumRight + arr06[i];
             } else break;
         }
-        ;
         return (sumLeft == sumRight);
     }
     //endregion
