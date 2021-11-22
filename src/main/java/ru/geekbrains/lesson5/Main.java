@@ -14,6 +14,7 @@ public class Main {
             if (employeesArray[i].age > 40) {
                 employeesArray[i].info();
             }
+
         }
     }
 }

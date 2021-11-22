@@ -16,6 +16,7 @@ public class Employee {
         this.payment = payment;
         this.age = age;
     }
+
     void info() {
         System.out.printf("ФИО: %s\nДолжность: %s\nEmail: %s\nНомер телефона: %s\nЗарплата: %d\nВозраст: %d\n\n", name, position, email, phone, payment, age);
     }
