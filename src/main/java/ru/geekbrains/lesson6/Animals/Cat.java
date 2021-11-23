@@ -5,11 +5,12 @@ public class Cat extends Animal {
         super(name, color, age, rundistance, swimdistance);
 
     }
+
     public void runCat() {
         if (this.rundistance <= 200) {
-            System.out.printf("%s пробежал %dм!\n", name,rundistance);
+            System.out.printf("%s пробежал %dм!\n", name, rundistance);
         } else {
-            System.out.printf("%s не может так далеко бегать!\n",name);
+            System.out.printf("%s не может так далеко бегать!\n", name);
         }
     }
 
